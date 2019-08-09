@@ -14,7 +14,7 @@ server = TCPSocket.new(SERVER_IP, SERVER_PORT)
 while line=STDIN.gets
 
 	server.write line
-	puts server.read(35)
+	puts server.read(42)
 end
 
 server.close
