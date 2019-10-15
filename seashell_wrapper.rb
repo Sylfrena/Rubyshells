@@ -5,8 +5,9 @@ SERVER_PORT = 1337
 
 server = TCPSocket.new(SERVER_IP, SERVER_PORT)
 
-while true
-	server.write STDIN.gets
-	puts server.gets
+puts server.gets
+loop do  
+  puts server.gets until server.write STDIN.gets 
 end
+
 server.close
