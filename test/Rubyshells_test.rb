@@ -5,7 +5,7 @@ class RubyshellsTest < Minitest::Test
     refute_nil ::Rubyshells::VERSION
   end
 
-  def test_it_does_something_useful
-    assert false
+  def test_url
+    assert_equal "https://github.com/Sylfrena/Rubyshells", Rubyshells::Url
   end
 end

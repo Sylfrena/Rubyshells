@@ -9,14 +9,14 @@ Gem::Specification.new do |spec|
   spec.email         = ["sylphrenadin@gmail.com"]
 
   spec.summary       = %q{A Ruby wrapper for seashells.io}
-  spec.description   = %q{Seashells.io is a great tool for piping command-line output. I wrote a simple ruby wrapper gem }
-  spec.homepage      = "TODO: Put your gem's website or public repo URL here."
+  spec.description   = %q{Seashells.io is a great tool for piping command-line output in real time. I wrote a simple ruby wrapper gem }
+  spec.homepage      = "https://github.com/Sylfrena/Rubyshells"
   spec.license       = "MIT"
 
   spec.metadata["allowed_push_host"] = "https://github.com/Sylfrena/Rubyshells"
 
   spec.metadata["homepage_uri"] = spec.homepage
-  spec.metadata["source_code_uri"] = "TODO: Put your gem's public repo URL here."
+  spec.metadata["source_code_uri"] = "https://github.com/Sylfrena/Rubyshells"
   spec.metadata["changelog_uri"] = "TODO: Put your gem's CHANGELOG.md URL here."
 
   # Specify which files should be added to the gem when it is released.
