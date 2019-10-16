@@ -1,0 +1,6 @@
+cat bin/Rubyshells
+#!/usr/bin/env ruby
+
+require 'Rubyshells'
+
+puts Rubyshells::Url
