@@ -1,6 +1,6 @@
 # Rubyshells
 
-[WIP]Rubyshells is gem that provides a [seashell](https://seashells.io) client written in ruby. Seashells allows for piping output from command line programs to the web in real time.
+[WIP] Rubyshells provides a [seashell](https://seashells.io) client written in ruby. Seashells allows for piping output from command line programs to the web in real time.
 
 ## Installation
 
